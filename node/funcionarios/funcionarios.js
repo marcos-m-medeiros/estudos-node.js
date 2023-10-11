@@ -1,4 +1,5 @@
 // Importa a biblioteca Axios para fazer requisições HTTP.
+const url = "http://files.cod3r.com.br/curso-js/funcionarios.json"
 const axios = require("axios");
 
 // Define funções de filtro e redução para encontrar o funcionário com o menor salário.
