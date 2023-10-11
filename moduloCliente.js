@@ -1,5 +1,5 @@
 // Importa o módulo A do arquivo "moduloA.js" (assumindo que este arquivo existe na mesma pasta)
-const moduloA = require("./moduloA");
+const moduloA = require("./node/pastaA/moduloA");
 
 // Importa o módulo B do arquivo "moduloB.js" (assumindo que este arquivo existe na mesma pasta)
 const moduloB = require("./moduloB");

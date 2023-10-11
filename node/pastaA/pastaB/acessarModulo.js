@@ -1,5 +1,5 @@
 // Importa o módulo "moduloA.js" de um caminho relativo (subindo duas pastas e acessando o arquivo)
-const moduloA = require("../../moduloA.js");
+const moduloA = require("../../../moduloA.js");
 
 // Exibe no console a propriedade "ola" do módulo importado de "moduloA.js"
 console.log(moduloA.ola);
